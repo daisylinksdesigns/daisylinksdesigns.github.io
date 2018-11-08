@@ -1,0 +1,61 @@
+.category {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #2D95E3;
+    background-color: #19C22A;
+    padding: 5px 10px;
+    z-index: 2;
+    color: #fff;
+    margin-bottom: 0;
+    display: inline-block;
+    border-radius: 5px;
+}
+.meta-holder {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.post.wide .meta-holder {
+    margin-bottom: 0;
+}
+
+.meta-holder .meta {
+    margin-top: 0;
+}
+
+.meta li {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #83858F;
+}
+.post.wide .meta li {
+    color: #fff;
+}
+
+.meta i {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.meta a {
+    color: #2D95E3;
+}
+
+.meta li:after {
+    content: '';
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.meta li.meta-author:after {
+    content: '-';
+}

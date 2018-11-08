@@ -1,0 +1,46 @@
+.entry .header {
+  margin-bottom: 24px;
+}
+.entry .header h1 {
+  font-size: 36px;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+.img-holder {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.entry .wrap {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.entry .contents > p {
+  margin-bottom: 34px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.entry .share {
+  margin-bottom: 16px;
+}
+.entry ol,
+.entry ul {
+  padding-left: 24px;
+  line-height: 26px;
+}
+.entry ul {
+  list-style: disc;
+}
+@media only screen and (min-width: 992px) {
+  .entry .contents {
+    padding-left: 30px;
+  }
+  .entry .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}

@@ -1,0 +1,41 @@
+.nav-link {
+  line-height: 4rem;
+}
+.navbar-brand {
+  width: 60%;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    width: 70%;
+  }
+}
+.navbar-brand img {
+  position: relative;
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: -1.5rem;
+  z-index: 999;
+}
+.nav-border {
+  border-bottom: 2px solid #fdb3a6;
+  margin-top: -2px;
+}
+.abs-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pagination {
+  margin-bottom: 30px;
+}
+.collapse.show .nav-link,
+.collapsing .nav-link {
+  line-height: 2rem;
+}
+.nav-link .fa {
+  font-size: 1.25rem;
+}
+.tabs-container {
+  margin-bottom: 2rem;
+}

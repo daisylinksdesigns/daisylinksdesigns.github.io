@@ -1,0 +1,5 @@
+@media (min-width: 1280px) {
+  .container.contact-form {
+    padding: 0 10rem;
+  }
+}

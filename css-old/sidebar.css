@@ -1,0 +1,20 @@
+
+.sidebar {
+    padding-left: 35px;
+}
+.sidebar .card {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 32px;
+}
+
+.sidebar .card-header  {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0;
+    margin-bottom: 24px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+}

@@ -1,0 +1,55 @@
+
+.index-grid>div {
+    margin-bottom: 2rem;
+}
+.index-grid .card {
+    height: 100%;
+
+}
+.index-grid .img-holder {
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.index-grid .thumb-container {
+    background-color: #f7f7f7;
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    padding-bottom: 70%;
+}
+.index-grid .thumb-container img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 0;
+}
+.index-grid .category {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+}
+.index-grid .body {
+    background-color: #fff;
+    padding: 24px 32px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+.index-grid .header .title {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}

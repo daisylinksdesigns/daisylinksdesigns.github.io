@@ -1,0 +1,19 @@
+.portfolio-item .category {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+}
+.portfolio-item .img-holder {
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 230px;
+}
+.portfolio-item .img-holder img {
+  height: 100%;
+  border: none;
+}

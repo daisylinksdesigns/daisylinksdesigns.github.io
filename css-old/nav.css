@@ -1,0 +1,124 @@
+.navbar {
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+.navbar-nav {
+    z-index: 999;
+}
+.nav-center {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top:0;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    z-index: 100;
+
+}
+.navbar-brand {
+    font-weight: 900;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar-brand img {
+    width: 70%;
+    margin-bottom: -3rem;
+    z-index: 999; 
+}
+.navbar-nav.socials {
+    display:none;
+}
+@media (min-width: 992px) {
+    .navbar-brand img {
+        width: 500px;
+        margin-bottom: -5rem;  
+    }
+    .navbar-nav.socials {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #171821;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 16px;
+    display: block;
+    position: relative;
+    line-height: 48px;
+}
+.wide .navbar-light .navbar-nav .nav-link {
+    font-family: "Roboto", sans-serif;
+    color: #54555E;
+    font-size: 14px;
+    text-transform: none;
+    font-weight: 400;
+
+}
+.wide.navbar, .wide .navbar {
+    box-shadow: none;
+}
+.wide .navbar-top {
+    padding: 30px 0;
+}
+.wide .navbar-bottom {
+    text-align: center;
+}
+.wide .navbar-bottom li {
+    float: none;
+    display: inline-block;
+}
+.wide .navbar-bottom .navbar-nav .nav-link {
+    line-height: 82px;
+    color: #171821;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 16px;
+    display: block;
+    position: relative;
+}
+.wide .navbar-bottom .navbar-nav {
+    margin: auto;
+}
+.line {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #E3E4E8;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2D95E3;
+}
+.navbar-holder {
+    display: block;
+    margin-bottom: 2em;
+}
+.navbar-top {
+    display: block;
+}
+.navbar-top .navbar-nav .nav-link {
+    padding-left: 0; 
+    padding-right: 16px;
+}
+.navbar-bottom {
+    display: block;
+}
+body {
+    padding-top: 0;
+}
+.navbar-top .nav-link {
+    display: block;
+    padding: 0 10px;
+    line-height: 32px;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+

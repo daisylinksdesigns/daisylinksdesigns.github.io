@@ -1,0 +1,57 @@
+.shop-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('/img/ladybirds2.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+}
+.shop-header h1,
+.main-header {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-size: 4.5rem;
+  line-height: 5.375rem;
+}
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(150, 150, 150, 0.5);
+  /*   background-color: rgba(253,179,166,0.8); */
+}
+.header-banner {
+  width: 380px;
+  height: 220px;
+  position: absolute;
+  text-align: center;
+  padding: 60px 45px;
+  background-color: #fff;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -190px;
+}
+.header-banner::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid #dec18c;
+}
+.header-banner .sub-title {
+  text-decoration: underline;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .header-banner {
+    left: auto;
+    margin-left: 0;
+    bottom: 20px;
+    right: 40px;
+  }
+}
