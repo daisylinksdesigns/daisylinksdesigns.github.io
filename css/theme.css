@@ -113,3 +113,6 @@ h2.price {
 .product-flash span {
   background-color: #ffcc00;
 }
+.shop-header {
+  background: url('/img/header1.jpg') center center no-repeat scroll;
+}

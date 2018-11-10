@@ -998,7 +998,6 @@ input[type="radio"]:focus {
 .shop-header {
   height: 50vh;
   min-height: 300px;
-  background: url('/img/ladybirds2.jpg') center center no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -1209,4 +1208,7 @@ h2.price {
 }
 .product-flash span {
   background-color: #ffcc00;
+}
+.shop-header {
+  background: url('/img/header1.jpg') center center no-repeat scroll;
 }
