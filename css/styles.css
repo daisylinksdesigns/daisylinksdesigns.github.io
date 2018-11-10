@@ -471,6 +471,10 @@ input[type="radio"]:focus {
   border: none;
   background: none;
 }
+.shop-items .card {
+  margin: 0 15px;
+  margin-bottom: 30px;
+}
 .sidebar {
   padding-left: 35px;
 }
@@ -1068,7 +1072,6 @@ input[type="radio"]:focus {
   z-index: 999;
 }
 .nav-border {
-  border-bottom: 2px solid #fdb3a6;
   margin-top: -2px;
 }
 .abs-center-x {
@@ -1109,21 +1112,25 @@ h6 {
   color: #333;
 }
 a {
-  color: #fdb3a6;
+  color: #ffcc00;
 }
 a:hover {
   text-decoration: none;
-  color: #fdb3a6;
+  color: #ffcc00;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #fdb3a6;
+  color: #ffcc00;
+}
+.nav-border {
+  border-bottom: 2px solid #ffcc00;
+  margin-top: -2px;
 }
 .shop h4.card-title {
   font-size: 15px;
   text-align: center;
 }
 .price {
-  color: #fdb3a6;
+  color: #ffcc00;
 }
 h5.price {
   font-size: 18px;
@@ -1131,13 +1138,13 @@ h5.price {
 }
 .card {
   border-radius: 0;
-  border: 1px solid #fdb3a6;
+  border: 1px solid #ffcc00;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 .shop .card-header {
-  background: #fdb3a6;
-  background-color: #fdb3a6;
+  background: #ffcc00;
+  background-color: #ffcc00;
   color: #fff;
 }
 h2.price {
@@ -1156,33 +1163,33 @@ h2.price {
   text-transform: none;
 }
 .btn-primary {
-  background-color: #fdb3a6;
+  background-color: #ffcc00;
 }
 .btn-primary:hover {
-  background-color: #fc8874;
+  background-color: #cca300;
 }
 .shop-description,
 .shop-description p {
   color: #333;
 }
 .line {
-  border-color: #fdb3a6;
+  border-color: #ffcc00;
 }
 .page-link {
-  color: #fdb3a6;
+  color: #ffcc00;
 }
 .page-link:hover {
-  color: #fc8874;
+  color: #cca300;
 }
 .page-item.disabled .page-link {
   color: #4a4a4a;
 }
 .page-item.active .page-link {
-  background-color: #fdb3a6;
-  border-color: #fdb3a6;
+  background-color: #ffcc00;
+  border-color: #ffcc00;
 }
 .header-banner::before {
-  border-color: #fdb3a6;
+  border-color: #ffcc00;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #333;
@@ -1191,12 +1198,12 @@ h2.price {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #fdb3a6;
+  color: #ffcc00;
 }
 .header-banner .sub-title {
-  color: #fdb3a6;
+  color: #ffcc00;
 }
 .btn-outline {
   background: transparent;
-  border: 2px solid #fdb3a6;
+  border: 2px solid #ffcc00;
 }
