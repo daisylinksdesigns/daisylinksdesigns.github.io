@@ -110,3 +110,6 @@ h2.price {
   background: transparent;
   border: 2px solid #ffcc00;
 }
+.product-flash span {
+  background-color: #ffcc00;
+}
