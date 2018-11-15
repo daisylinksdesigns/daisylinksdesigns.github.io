@@ -35,21 +35,40 @@
   .item-list {
     column-count: 1;
   }
+  .item-list.home {
+    column-count: 1;
+  }
 }
 @media only screen and (min-width: 700px) {
   .item-list {
     column-count: 2;
+  }
+  .item-list.home {
+    column-count: 3;
   }
 }
 @media only screen and (min-width: 900px) {
   .item-list {
     column-count: 3;
   }
+  .item-list.home {
+    column-count: 4;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .item-list {
+    column-count: 3;
+  }
+  .item-list.home {
     column-count: 4;
   }
+}
+.small-item-list {
+  padding: 0 10%;
+}
+.small-item-list .card-holder {
+  width: 50%;
+  position: relative;
 }
 .shop-items .card:hover {
   border-color: #dec18c;
