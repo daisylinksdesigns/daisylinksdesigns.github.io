@@ -1,18 +1,25 @@
-.sidebar {
-  padding-left: 35px;
+.shop .sidebar .list-group .list-group-item {
+  line-height: 1.8;
+  font-size: 15px;
+  color: #999;
+  font-weight: 400;
+  text-transform: none;
+  border-top: 1px solid #eee;
+  padding-left: 0;
+  background-color: transparent;
 }
-.sidebar .card {
-  margin-bottom: 40px;
-  background-color: #fff;
-  padding: 32px;
+.shop .sidebar .list-group .list-group-item:hover,
+.shop .sidebar .list-group .list-group-item:focus {
+  border-top: 1px solid #eee;
 }
 .sidebar .card-header {
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  padding: 0;
-  margin-bottom: 24px;
-  font-weight: 700;
-  background-color: transparent;
+  font-size: 22px;
+  color: #333;
+  background: none;
+}
+.sidebar .card {
   border: none;
+}
+.shop-items .sidebar .card:first-child {
+  margin-top: 0 !important;
 }

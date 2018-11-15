@@ -50,6 +50,10 @@ h5.price {
   background-color: #ffcc00;
   color: #fff;
 }
+.sidebar .card-header {
+  color: #333;
+  background: none;
+}
 h2.price {
   font-size: 36px;
   text-align: center;

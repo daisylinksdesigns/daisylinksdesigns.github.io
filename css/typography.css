@@ -142,3 +142,6 @@ hr {
 h2.pageTitles {
   font-size: 1.875rem;
 }
+.sidebar .card-header {
+  font-family: 'Playfair Display', serif;
+}

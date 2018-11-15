@@ -266,6 +266,9 @@ hr {
 h2.pageTitles {
   font-size: 1.875rem;
 }
+.sidebar .card-header {
+  font-family: 'Playfair Display', serif;
+}
 .post .breadcrumbs,
 .breadcrumbs {
   margin-top: 24px;
@@ -474,24 +477,6 @@ input[type="radio"]:focus {
 .shop-items .card {
   margin: 0 15px;
   margin-bottom: 30px;
-}
-.sidebar {
-  padding-left: 35px;
-}
-.sidebar .card {
-  margin-bottom: 40px;
-  background-color: #fff;
-  padding: 32px;
-}
-.sidebar .card-header {
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  padding: 0;
-  margin-bottom: 24px;
-  font-weight: 700;
-  background-color: transparent;
-  border: none;
 }
 .img-holder {
   position: relative;
@@ -1021,6 +1006,31 @@ input[type="radio"]:focus {
   height: 500px;
   text-align: center;
 }
+.shop .sidebar .list-group .list-group-item {
+  line-height: 1.8;
+  font-size: 15px;
+  color: #999;
+  font-weight: 400;
+  text-transform: none;
+  border-top: 1px solid #eee;
+  padding-left: 0;
+  background-color: transparent;
+}
+.shop .sidebar .list-group .list-group-item:hover,
+.shop .sidebar .list-group .list-group-item:focus {
+  border-top: 1px solid #eee;
+}
+.sidebar .card-header {
+  font-size: 22px;
+  color: #333;
+  background: none;
+}
+.sidebar .card {
+  border: none;
+}
+.shop-items .sidebar .card:first-child {
+  margin-top: 0 !important;
+}
 .shop-header {
   height: 50vh;
   min-height: 300px;
@@ -1171,6 +1181,10 @@ h5.price {
   background: #ffcc00;
   background-color: #ffcc00;
   color: #fff;
+}
+.sidebar .card-header {
+  color: #333;
+  background: none;
 }
 h2.price {
   font-size: 36px;
