@@ -30,6 +30,13 @@
   background-size: cover;
   background-position: 50%;
 }
+.small-item-list {
+  padding: 0 10%;
+}
+.small-item-list .card-holder {
+  width: 100%;
+  position: relative;
+}
 /* Media Queries */
 @media only screen and (min-width: 480px) {
   .item-list {
@@ -54,6 +61,13 @@
   .item-list.home {
     column-count: 4;
   }
+  .small-item-list {
+    padding: 0 10%;
+  }
+  .small-item-list .card-holder {
+    width: 50%;
+    position: relative;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .item-list {
@@ -62,13 +76,6 @@
   .item-list.home {
     column-count: 4;
   }
-}
-.small-item-list {
-  padding: 0 10%;
-}
-.small-item-list .card-holder {
-  width: 50%;
-  position: relative;
 }
 .shop-items .card:hover {
   border-color: #dec18c;
