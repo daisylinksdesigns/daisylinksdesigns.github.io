@@ -53,3 +53,11 @@
 .meta li.meta-author:after {
   content: '-';
 }
+.product-meta {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+.product-meta label {
+  font-weight: 700;
+}

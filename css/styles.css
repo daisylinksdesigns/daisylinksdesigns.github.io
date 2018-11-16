@@ -610,6 +610,14 @@ input[type="radio"]:focus {
 .meta li.meta-author:after {
   content: '-';
 }
+.product-meta {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+.product-meta label {
+  font-weight: 700;
+}
 .socials {
   overflow: hidden;
   display: -webkit-box;
@@ -1013,6 +1021,19 @@ input[type="radio"]:focus {
 .page404 .content-box {
   height: 500px;
   text-align: center;
+}
+.btn-wrap {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.note {
+  position: relative;
+  margin-bottom: 1rem;
+  font-size: 13px;
+}
+.shop-item .share {
+  margin-bottom: 1rem;
 }
 .shop .sidebar .list-group .list-group-item {
   line-height: 1.8;

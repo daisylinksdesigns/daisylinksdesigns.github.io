@@ -129,3 +129,16 @@
   height: 500px;
   text-align: center;
 }
+.btn-wrap {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.note {
+  position: relative;
+  margin-bottom: 1rem;
+  font-size: 13px;
+}
+.shop-item .share {
+  margin-bottom: 1rem;
+}
