@@ -1039,6 +1039,9 @@ input[type="radio"]:focus {
   background-size: cover;
   -o-background-size: cover;
   position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 .shop-header h1,
 .main-header {
@@ -1248,9 +1251,6 @@ h2.price {
 }
 .product-flash span {
   background-color: #ffcc00;
-}
-.shop-header {
-  background: url('/img/header1.jpg') center center no-repeat scroll;
 }
 .overlay {
   background-color: rgba(25, 90, 90, 0.5);
