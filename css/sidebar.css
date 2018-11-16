@@ -18,6 +18,9 @@
   border-top: 1px solid #eee;
   padding-left: 25px;
 }
+.shop .sidebar .list-group .list-group-item:first-child {
+  border: none;
+}
 .sidebar .card-header {
   font-size: 22px;
   color: #333;
