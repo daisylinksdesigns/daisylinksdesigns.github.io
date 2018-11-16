@@ -1171,6 +1171,9 @@ input[type="radio"]:focus {
 .footer.bg-dark h4 {
   color: #fff;
 }
+.footer {
+  margin-top: 2rem;
+}
 /* @navbar: @white;
 @navbarText: @brand; */
 body {
