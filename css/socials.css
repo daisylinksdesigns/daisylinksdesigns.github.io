@@ -192,3 +192,11 @@
   background-color: #ed7412 !important;
   color: #fff !important;
 }
+.sticky-col {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  width: 60px;
+}
