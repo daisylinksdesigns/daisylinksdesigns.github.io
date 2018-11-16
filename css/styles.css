@@ -1279,6 +1279,7 @@ h2.price {
   background-color: #fff;
 }
 .shop .sidebar .list-group .list-group-item:hover,
-.shop .sidebar .list-group .list-group-item:focus {
+.shop .sidebar .list-group .list-group-item:focus,
+.shop .sidebar .list-group .list-group-item.active {
   color: #ffcc00;
 }
