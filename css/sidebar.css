@@ -7,10 +7,16 @@
   border-top: 1px solid #eee;
   padding-left: 0;
   background-color: transparent;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
 }
 .shop .sidebar .list-group .list-group-item:hover,
 .shop .sidebar .list-group .list-group-item:focus {
   border-top: 1px solid #eee;
+  padding-left: 25px;
 }
 .sidebar .card-header {
   font-size: 22px;

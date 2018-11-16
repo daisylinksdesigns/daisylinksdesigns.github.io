@@ -126,3 +126,7 @@ h2.price {
 .cc-btn {
   background-color: #fff;
 }
+.shop .sidebar .list-group .list-group-item:hover,
+.shop .sidebar .list-group .list-group-item:focus {
+  color: #ffcc00;
+}
