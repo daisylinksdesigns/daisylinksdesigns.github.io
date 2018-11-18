@@ -142,3 +142,44 @@
 .shop-item .share {
   margin-bottom: 1rem;
 }
+.product-actions {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 0 10%;
+}
+.product-actions .pa-container {
+  width: 100%;
+  text-align: center;
+}
+.product-actions a {
+  width: 48px;
+  height: 48px;
+  line-height: 48px !important;
+  text-align: center;
+  background-color: #fff;
+  color: #888;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  vertical-align: middle;
+  opacity: 0;
+  visibility: hidden;
+  margin-bottom: 5px;
+  -webkit-transition: color 0.5s 0.001s ease-out, background 0.5s 0.001s ease-out, visibility 0.5s 0.25s ease-out, opacity 0.5s 0.25s ease-out, -webkit-transform 0.5s 0.25s ease-out;
+  -moz-transition: color 0.5s 0.001s ease-out, background 0.5s 0.001s ease-out, visibility 0.5s 0.25s ease-out, opacity 0.5s 0.25s ease-out, -moz-transform 0.5s 0.25s ease-out;
+  -ms-transition: color 0.5s 0.001s ease-out, background 0.5s 0.001s ease-out, visibility 0.5s 0.25s ease-out, opacity 0.5s 0.25s ease-out, -ms-transform 0.5s 0.25s ease-out;
+  -o-transition: color 0.5s 0.001s ease-out, background 0.5s 0.001s ease-out, visibility 0.5s 0.25s ease-out, opacity 0.5s 0.25s ease-out, -o-transform 0.5s 0.25s ease-out;
+  transition: color 0.5s 0.001s ease-out, background 0.5s 0.001s ease-out, visibility 0.5s 0.25s ease-out, opacity 0.5s 0.25s ease-out, transform 0.5s 0.25s ease-out;
+}
+.shop-items .card:hover .product-actions a {
+  opacity: 1;
+  visibility: visible;
+}
+.product-actions i {
+  font-size: 15px;
+}

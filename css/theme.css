@@ -131,3 +131,6 @@ h2.price {
 .shop .sidebar .list-group .list-group-item.active {
   color: #ffcc00;
 }
+.product-actions {
+  color: #ffcc00;
+}
