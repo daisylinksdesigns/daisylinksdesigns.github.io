@@ -31,3 +31,7 @@ _ReSharper*/
 #Nuget packages folder
 packages/
 node_modules/
+/seo/index.html
+/css/seo.css
+/js/loadMetaTree.js
+/js/metaTree.json
