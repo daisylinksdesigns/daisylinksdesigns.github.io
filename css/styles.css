@@ -1111,8 +1111,6 @@ input[type="radio"]:focus {
   margin-top: 0 !important;
 }
 .shop-header {
-  height: 50vh;
-  min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -1126,8 +1124,6 @@ input[type="radio"]:focus {
 .main-header {
   font-family: 'Playfair Display', serif;
   color: #fff;
-  font-size: 4.5rem;
-  line-height: 5.375rem;
 }
 .overlay {
   position: relative;
@@ -1350,4 +1346,41 @@ h2.price {
 }
 .product-actions {
   color: #ffcc00;
+}
+.shop-header {
+  box-sizing: border-box;
+  height: 300px;
+}
+.shop-header .container,
+.shop-header .row {
+  height: 100%;
+}
+.shop-header .header-col {
+  height: 100%;
+}
+.shop-header .text-container {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.shop-header h1,
+.main-header {
+  font-size: 3rem;
+}
+@media (min-width: 768px) {
+  .shop-header h1,
+  .main-header {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .shop-header h1,
+  .main-header {
+    font-size: 4.5rem;
+    line-height: 5.375rem;
+  }
 }

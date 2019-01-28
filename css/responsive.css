@@ -1,0 +1,37 @@
+.shop-header {
+  box-sizing: border-box;
+  height: 300px;
+}
+.shop-header .container,
+.shop-header .row {
+  height: 100%;
+}
+.shop-header .header-col {
+  height: 100%;
+}
+.shop-header .text-container {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.shop-header h1,
+.main-header {
+  font-size: 3rem;
+}
+@media (min-width: 768px) {
+  .shop-header h1,
+  .main-header {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .shop-header h1,
+  .main-header {
+    font-size: 4.5rem;
+    line-height: 5.375rem;
+  }
+}

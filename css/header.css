@@ -1,6 +1,4 @@
 .shop-header {
-  height: 50vh;
-  min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -14,8 +12,6 @@
 .main-header {
   font-family: 'Playfair Display', serif;
   color: #fff;
-  font-size: 4.5rem;
-  line-height: 5.375rem;
 }
 .overlay {
   position: relative;
