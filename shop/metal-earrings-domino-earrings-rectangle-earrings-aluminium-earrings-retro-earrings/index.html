@@ -217,15 +217,25 @@ Inspired by retro pursuits and mini travel games</p>
       </div>
     </footer>
   <!-- Bootstrap core JavaScript -->
-         <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+         <script src="/js/cookieconsent.min.js"></script>
 <script>
-    window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-            "content": {
-                "href": "/privacy-policy/"
-            }
-    })});
+const options = {
+    palette:{
+      popup: {background: "#0195b0", text:"#fff"},
+      button: {background: "#fff",text: "#000",border:"#ffcc00"},
+     },
+     content: {
+        href: 'https://daisylinksdesigns.co.uk/privacy-policy/'
+     },
+     law: {
+      regionalLaw: false,
+     },
+    location: true
+}
+let cc = new CookieConsent( options );
+ccInstance
+    .on( "initialized", function ( popup ) { popup.autoOpen() } )
+    .on( "error", console.error );
 </script>  </body>
 
 </html>
