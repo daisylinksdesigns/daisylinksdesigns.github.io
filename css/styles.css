@@ -1672,12 +1672,6 @@ h2.price {
 .overlay {
   background-color: rgba(25, 90, 90, 0.5);
 }
-.cc-window {
-  background-color: #0195b0 !important;
-}
-.cc-btn {
-  background-color: #fff;
-}
 .shop .sidebar .list-group .list-group-item:hover,
 .shop .sidebar .list-group .list-group-item:focus,
 .shop .sidebar .list-group .list-group-item.active {
