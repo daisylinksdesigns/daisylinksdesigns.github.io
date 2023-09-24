@@ -1668,7 +1668,10 @@ h2.price {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #ffcc00;
+  color: #333;
+  text-shadow: 1px -1px 3px #ffcc00;
+  font-style: italic;
+  font-weight: bold;
 }
 .header-banner .sub-title {
   color: #ffcc00;
