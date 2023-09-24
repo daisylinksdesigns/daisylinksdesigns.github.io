@@ -170,7 +170,8 @@ This pendant is made from a painted wooden block with two wooden painted ladybir
       </div>
 
     </div>
-    <!-- /.container -->      <!-- Footer -->
+    <!-- /.container -->
+      <!-- Footer -->
     <footer class="footer bg-dark text-white text-center">
       <div class="container">
         <div class="row top hidden pt-4">
@@ -212,10 +213,12 @@ This pendant is made from a painted wooden block with two wooden painted ladybir
         </div>
       </div>
     </footer>
-  <!-- Bootstrap core JavaScript -->
-         <script src="/js/cookieconsent.min.js"></script>
+         <div id="cookie-content"> 
+</div>
+<script src="/js/cookieconsent.min.js"></script>
 <script>
 const options = {
+    container: document.getElementById("cookie-content"),
     palette:{
       popup: {background: "#026273", text:"#fff"},
       button: {background: "#fff",text: "#000",border:"#ffcc00"},
@@ -233,6 +236,10 @@ let cc = new CookieConsent( options );
 ccInstance
     .on( "initialized", function ( popup ) { popup.autoOpen() } )
     .on( "error", console.error );
+    .on( "popupClose", function () {
+         let el = document.getElementById("cookie-content");
+         el.style.zIndex = 0;
+    } )
 </script>  </body>
 
 </html>

@@ -6,4 +6,8 @@
 }
 .footer a {
   color: #FFD429;
+  text-decoration: underline;
+}
+.footer a:hover {
+  text-decoration: none;
 }

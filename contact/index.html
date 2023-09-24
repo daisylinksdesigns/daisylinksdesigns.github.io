@@ -147,7 +147,8 @@
     </div>
     <!-- /.container -->
  
-          <!-- Footer -->
+    
+      <!-- Footer -->
     <footer class="footer bg-dark text-white text-center">
       <div class="container">
         <div class="row top hidden pt-4">
@@ -189,14 +190,17 @@
         </div>
       </div>
     </footer>
-  <!-- Bootstrap core JavaScript -->
     <script src="/js/jquery.min.js"></script>
-      <script src="/js/bootstrap.bundle.min.js"></script>
+       <!-- Bootstrap core JavaScript -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
                          <script src="/js/jqBootstrapValidation.js"></script>
                     <script src="/js/contact_me.js"></script>
-              <script src="/js/cookieconsent.min.js"></script>
+              <div id="cookie-content"> 
+</div>
+<script src="/js/cookieconsent.min.js"></script>
 <script>
 const options = {
+    container: document.getElementById("cookie-content"),
     palette:{
       popup: {background: "#026273", text:"#fff"},
       button: {background: "#fff",text: "#000",border:"#ffcc00"},
@@ -214,6 +218,10 @@ let cc = new CookieConsent( options );
 ccInstance
     .on( "initialized", function ( popup ) { popup.autoOpen() } )
     .on( "error", console.error );
+    .on( "popupClose", function () {
+         let el = document.getElementById("cookie-content");
+         el.style.zIndex = 0;
+    } )
 </script>  </body>
 
 </html>

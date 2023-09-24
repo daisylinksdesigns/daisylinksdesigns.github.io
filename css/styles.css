@@ -1553,6 +1553,10 @@ input[type="radio"]:focus {
 }
 .footer a {
   color: #FFD429;
+  text-decoration: underline;
+}
+.footer a:hover {
+  text-decoration: none;
 }
 /* @navbar: @white;
 @navbarText: @brand; */
