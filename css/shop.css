@@ -1,3 +1,5 @@
+/* @navbar: @white;
+@navbarText: @brand; */
 .shop .list-group .list-group-item {
   font-family: "Source Sans Pro", sans-serif;
   color: #171821;
@@ -113,15 +115,14 @@
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  text-shadow: 1px 1px 5px black;
-  color: #fff;
+  color: #333;
+  background-color: #ffcc00;
   width: auto;
   height: auto;
   line-height: 43px;
   padding: 5px;
   display: block;
   text-align: center;
-  background-color: #fdb3a6;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;

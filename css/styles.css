@@ -1198,6 +1198,8 @@ input[type="radio"]:focus {
   height: 100%;
   border: none;
 }
+/* @navbar: @white;
+@navbarText: @brand; */
 .shop .list-group .list-group-item {
   font-family: "Source Sans Pro", sans-serif;
   color: #171821;
@@ -1313,15 +1315,14 @@ input[type="radio"]:focus {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  text-shadow: 1px 1px 5px black;
-  color: #fff;
+  color: #333;
+  background-color: #ffcc00;
   width: auto;
   height: auto;
   line-height: 43px;
   padding: 5px;
   display: block;
   text-align: center;
-  background-color: #fdb3a6;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
@@ -1558,8 +1559,6 @@ input[type="radio"]:focus {
 .footer a:hover {
   text-decoration: none;
 }
-/* @navbar: @white;
-@navbarText: @brand; */
 body {
   color: #333;
 }
@@ -1676,9 +1675,6 @@ h2.price {
 .btn-outline {
   background: transparent;
   border: 2px solid #ffcc00;
-}
-.product-flash span {
-  background-color: #ffcc00;
 }
 .overlay {
   background-color: rgba(25, 90, 90, 0.5);
