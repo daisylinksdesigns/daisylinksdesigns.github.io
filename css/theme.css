@@ -110,11 +110,20 @@ h2.price {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
   color: #333;
-  border-top: 1px solid #ffcc00;
-  border-bottom: 1px solid #ffcc00;
-  line-height: 1rem;
-  margin-top: 1.4rem;
+  border-top: 2px solid #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+  line-height: 0.5rem;
+  margin-top: 0.7rem;
   font-weight: bold;
+}
+@media (min-width: 768px) {
+  .navbar-light .navbar-nav .show > .nav-link,
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .nav-link.active {
+    line-height: 1rem;
+    margin-top: 1.4rem;
+  }
 }
 .header-banner .sub-title {
   color: #ffcc00;
