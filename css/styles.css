@@ -1313,6 +1313,7 @@ input[type="radio"]:focus {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+  text-shadow: 1px 1px 5px black;
   color: #fff;
   width: auto;
   height: auto;
@@ -1550,6 +1551,9 @@ input[type="radio"]:focus {
 .footer {
   margin-top: 2rem;
 }
+.footer a {
+  color: #FFD429;
+}
 /* @navbar: @white;
 @navbarText: @brand; */
 body {
@@ -1585,7 +1589,7 @@ a:hover {
   text-align: center;
 }
 .price {
-  color: #ffcc00;
+  color: #333;
 }
 h5.price {
   font-size: 18px;
