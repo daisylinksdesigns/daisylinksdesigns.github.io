@@ -134,12 +134,14 @@
     <br>
 
     <div class="form-group feature">
-    <div id="success"></div>
         <button type="submit" class="btn btn-primary btn-blue" id="sendMessageButton">Send
         <span class="arrow">&gt;</span>
         </button>
     </div>
-</form>                        </div>
+</form>
+<div id="success"></div>
+                        </div>
+        
                     </div>
                 </div>
              </div>
@@ -218,8 +220,7 @@ const options = {
     location: true
 }
 let cc = new CookieConsent( options );
-cc.on( "initialized", function ( popup ) { popup.autoOpen() } )
-  .on( "error", console.error )
+cc.on( "error", console.error )
   .on( "popupClose", function () {
          let el = document.getElementById("cookie-content");
          el.style.zIndex = 0;

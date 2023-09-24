@@ -17,7 +17,7 @@ $(function() {
     });
 
     function resetContactPageForm(){
-        $("#contactPageForm").trigger("reset");
+       //$("#contactPageForm").trigger("reset");
         $('button[type="button"]', $form).each(function () {
             $btn = $(this);
             label = $btn.prop('orig_label');
@@ -47,7 +47,7 @@ $(function() {
         var message = $("textarea#message").val();
 
         var emailData = {
-            email: "rachael@daisylinksdesigns.co.uk",
+            email: "contact@daisylinksdesigns.co.uk",
             replyTo: email,
             name: name,
             message: message,

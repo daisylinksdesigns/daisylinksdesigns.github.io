@@ -211,8 +211,7 @@ const options = {
     location: true
 }
 let cc = new CookieConsent( options );
-cc.on( "initialized", function ( popup ) { popup.autoOpen() } )
-  .on( "error", console.error )
+cc.on( "error", console.error )
   .on( "popupClose", function () {
          let el = document.getElementById("cookie-content");
          el.style.zIndex = 0;
