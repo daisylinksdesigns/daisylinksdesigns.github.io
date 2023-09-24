@@ -1588,7 +1588,8 @@ a:hover {
   border-bottom: 2px solid #ffcc00;
   margin-top: -2px;
 }
-.shop h4.card-title {
+.shop h4.card-title,
+.shop h2.card-title {
   font-size: 15px;
   text-align: center;
 }
